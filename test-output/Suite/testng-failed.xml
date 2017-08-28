@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <parameter name="browser" value="FF"/>
-  <test name="GC Test(failed)">
-    <parameter name="browser" value="FF"/>
+  <parameter name="browser" value="appium"/>
+  <test name="FF Test(failed)">
+    <parameter name="browser" value="appium"/>
     <classes>
-      <class name="com.ctli.it.testcases.LoginTestCase">
+      <class name="com.ctli.it.mobiletestcase.NaukriTestCase">
         <methods>
-          <include name="afterSuite"/>
-          <include name="closeApp"/>
+          <include name="test"/>
           <include name="initialSetUp"/>
           <include name="launchApp"/>
-          <include name="testcase"/>
+          <include name="afterSuite"/>
+          <include name="closeApp"/>
         </methods>
-      </class> <!-- com.ctli.it.testcases.LoginTestCase -->
+      </class> <!-- com.ctli.it.mobiletestcase.NaukriTestCase -->
     </classes>
-  </test> <!-- GC Test(failed) -->
+  </test> <!-- FF Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="appium"/>
+  <test name="FF Test(failed)">
+    <parameter name="browser" value="appium"/>
     <classes>
-      <class name="com.ctli.it.soap.Refrence">
+      <class name="com.ctli.it.mobiletestcase.NaukriTestCase">
         <methods>
           <include name="test"/>
+          <include name="initialSetUp"/>
+          <include name="launchApp"/>
+          <include name="afterSuite"/>
+          <include name="closeApp"/>
         </methods>
-      </class> <!-- com.ctli.it.soap.Refrence -->
+      </class> <!-- com.ctli.it.mobiletestcase.NaukriTestCase -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- FF Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

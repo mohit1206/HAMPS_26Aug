@@ -4,26 +4,7 @@
  <test name="FF Test">
 <parameter name="browser" value="appium"/>
     <classes>
-      <class name="com.ctli.it.mobiletestcase.BookMyShowTestCase"/>
+      <class name="com.ctli.it.mobiletestcase.NaukriTestCase"/>
     </classes>
   </test> 
- <test name="Mobile Test">
-<parameter name="browser" value="FF"/>
-    <classes>
-      <class name="com.ctli.it.testcases.LoginTestCase"/>
-    </classes>
-  </test>
-    <test name="Rest Test">
-<parameter name="browser" value="Rest"/>
-    <classes>
-      <class name="com.ctli.it.testcases.RestService"/>
-    </classes>
-  </test>
-  
-     <test name="soap Test">
-<parameter name="browser" value="soap"/>
-    <classes>
-      <class name="com.ctli.it.soap.CelsiusToFahrenheit"/>
-    </classes>
-  </test>
 </suite> <!-- Suite -->

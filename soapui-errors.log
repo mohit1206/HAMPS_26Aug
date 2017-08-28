@@ -188,3 +188,14 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-08-27 14:23:45,532 ERROR [errorlog] com.eviware.soapui.impl.support.definition.support.InvalidDefinitionException
+com.eviware.soapui.impl.support.definition.support.InvalidDefinitionException
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlLoader.makeInvalidDefinitionException(WsdlLoader.java:119)
+	at com.eviware.soapui.impl.wsdl.support.wsdl.WsdlLoader.loadXmlObject(WsdlLoader.java:112)
+	at com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils.getDefinitionParts(SchemaUtils.java:486)
+	at com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils.getDefinitionParts(SchemaUtils.java:475)
+	at com.eviware.soapui.impl.support.definition.support.AbstractDefinitionCache.update(AbstractDefinitionCache.java:92)
+	at com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext$Loader.construct(AbstractDefinitionContext.java:208)
+	at com.eviware.soapui.support.swing.SwingWorkerDelegator.construct(SwingWorkerDelegator.java:46)
+	at com.eviware.soapui.support.swing.SwingWorker$2.run(SwingWorker.java:131)
+	at java.lang.Thread.run(Thread.java:745)

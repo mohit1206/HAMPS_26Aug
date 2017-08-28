@@ -1,58 +1,40 @@
-2017-08-26 18:05:18,609 WARN  [SoapUI] Missing folder [C:\TestAutothon Practice FW\TestNG\ext] for external libraries
-2017-08-26 18:05:18,850 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\AB49014\soapui-settings.xml]
-2017-08-26 18:05:19,468 INFO  [PluginManager] 0 plugins loaded in 1 ms
-2017-08-26 18:05:19,468 INFO  [DefaultSoapUICore] All plugins loaded
-2017-08-26 18:05:20,065 INFO  [SchemaUtils] Added default schema from file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
-2017-08-26 18:05:20,096 INFO  [SchemaUtils] Added default schema from file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
-2017-08-26 18:05:20,098 INFO  [SchemaUtils] Added default schema from file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
-2017-08-26 18:05:20,100 INFO  [SchemaUtils] Added default schema from file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
-2017-08-26 18:05:20,102 INFO  [SchemaUtils] Added default schema from file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
-2017-08-26 18:05:20,117 INFO  [SchemaUtils] Added default schema from file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
-2017-08-26 18:05:20,119 INFO  [SchemaUtils] Added default schema from file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
-2017-08-26 18:05:20,124 INFO  [SchemaUtils] Added default schema from file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
-2017-08-26 18:05:20,126 INFO  [SchemaUtils] Added default schema from file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
-2017-08-26 18:05:20,130 INFO  [SchemaUtils] Added default schema from file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
-2017-08-26 18:05:23,405 INFO  [SchemaUtils] Loading schema types from [https://ecaps-int1.foss.dev.qintra.com:40133/ecaps/service/UserAdminService?WSDL]
-2017-08-26 18:05:23,405 INFO  [SchemaUtils] Getting schema https://ecaps-int1.foss.dev.qintra.com:40133/ecaps/service/UserAdminService?WSDL
-2017-08-26 18:05:23,950 WARN  [SchemaUtils] Error: jar:file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ID' should only be used for attributes (used for element 'ID@http://www.w3.org/2003/05/soap-encoding').
-2017-08-26 18:05:23,950 WARN  [SchemaUtils] Error: jar:file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'IDREF' should only be used for attributes (used for element 'IDREF@http://www.w3.org/2003/05/soap-encoding').
-2017-08-26 18:05:23,950 WARN  [SchemaUtils] Error: jar:file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ENTITY' should only be used for attributes (used for element 'ENTITY@http://www.w3.org/2003/05/soap-encoding').
-2017-08-26 18:05:23,951 WARN  [SchemaUtils] Error: jar:file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'IDREFS' should only be used for attributes (used for element 'IDREFS@http://www.w3.org/2003/05/soap-encoding').
-2017-08-26 18:05:23,951 WARN  [SchemaUtils] Error: jar:file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ENTITIES' should only be used for attributes (used for element 'ENTITIES@http://www.w3.org/2003/05/soap-encoding').
-2017-08-26 18:05:23,951 WARN  [SchemaUtils] Error: jar:file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ID' should only be used for attributes (used for element 'ID@http://schemas.xmlsoap.org/soap/encoding/').
-2017-08-26 18:05:23,951 WARN  [SchemaUtils] Error: jar:file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'IDREF' should only be used for attributes (used for element 'IDREF@http://schemas.xmlsoap.org/soap/encoding/').
-2017-08-26 18:05:23,951 WARN  [SchemaUtils] Error: jar:file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ENTITY' should only be used for attributes (used for element 'ENTITY@http://schemas.xmlsoap.org/soap/encoding/').
-2017-08-26 18:05:23,952 WARN  [SchemaUtils] Error: jar:file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'IDREFS' should only be used for attributes (used for element 'IDREFS@http://schemas.xmlsoap.org/soap/encoding/').
-2017-08-26 18:05:23,952 WARN  [SchemaUtils] Error: jar:file:/C:/TestAutothon%20Practice%20FW/TestNG/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ENTITIES' should only be used for attributes (used for element 'ENTITIES@http://schemas.xmlsoap.org/soap/encoding/').
-2017-08-26 18:05:23,957 INFO  [WsdlImporter] Finding importer for {http://ecaps.ctl.com/service/userAdmin}UserAdminServiceSoapBinding
-2017-08-26 18:05:23,964 INFO  [WsdlImporter] Importing binding {http://ecaps.ctl.com/service/userAdmin}UserAdminServiceSoapBinding
-2017-08-26 18:05:23,992 INFO  [Soap11HttpBindingImporter] importing endpoint https://ecaps-int1.foss.dev.qintra.com:40133/ecaps/service/UserAdminService
-2017-08-26 18:05:24,017 INFO  [Soap11HttpBindingImporter] importing operation addUserToEnterprise
-2017-08-26 18:05:24,036 INFO  [Soap11HttpBindingImporter] importing operation assignSalesIdsToUser
-2017-08-26 18:05:24,037 INFO  [Soap11HttpBindingImporter] importing operation checkUsernameAvailability
-2017-08-26 18:05:24,037 INFO  [Soap11HttpBindingImporter] importing operation getAllUserProfilePictures
-2017-08-26 18:05:24,038 INFO  [Soap11HttpBindingImporter] importing operation getCSAUsers
-2017-08-26 18:05:24,038 INFO  [Soap11HttpBindingImporter] importing operation getExtendedTelephoneUsers
-2017-08-26 18:05:24,039 INFO  [Soap11HttpBindingImporter] importing operation getExtendedUsers
-2017-08-26 18:05:24,039 INFO  [Soap11HttpBindingImporter] importing operation getFilteredUsers
-2017-08-26 18:05:24,040 INFO  [Soap11HttpBindingImporter] importing operation getSalesIds
-2017-08-26 18:05:24,041 INFO  [Soap11HttpBindingImporter] importing operation getTelephoneUsers
-2017-08-26 18:05:24,041 INFO  [Soap11HttpBindingImporter] importing operation getUserById
-2017-08-26 18:05:24,042 INFO  [Soap11HttpBindingImporter] importing operation getUserByUsername
-2017-08-26 18:05:24,042 INFO  [Soap11HttpBindingImporter] importing operation getUserChannel
-2017-08-26 18:05:24,043 INFO  [Soap11HttpBindingImporter] importing operation getUserEnterpriseData
-2017-08-26 18:05:24,044 INFO  [Soap11HttpBindingImporter] importing operation getUserEnterprises
-2017-08-26 18:05:24,044 INFO  [Soap11HttpBindingImporter] importing operation getUserProfilePicture
-2017-08-26 18:05:24,046 INFO  [Soap11HttpBindingImporter] importing operation getUsers
-2017-08-26 18:05:24,046 INFO  [Soap11HttpBindingImporter] importing operation getUsersByAccount
-2017-08-26 18:05:24,047 INFO  [Soap11HttpBindingImporter] importing operation getUsersByAccountAndGroup
-2017-08-26 18:05:24,047 INFO  [Soap11HttpBindingImporter] importing operation getUsersByEmail
-2017-08-26 18:05:24,047 INFO  [Soap11HttpBindingImporter] importing operation ping
-2017-08-26 18:05:24,048 INFO  [Soap11HttpBindingImporter] importing operation removeAllUsersFromEnterprise
-2017-08-26 18:05:24,048 INFO  [Soap11HttpBindingImporter] importing operation removeSalesIdsFromUser
-2017-08-26 18:05:24,049 INFO  [Soap11HttpBindingImporter] importing operation removeUserFromEnterprise
-2017-08-26 18:05:24,049 INFO  [Soap11HttpBindingImporter] importing operation setDefaultEnterprise
-2017-08-26 18:05:24,050 INFO  [Soap11HttpBindingImporter] importing operation updateEnterpriseAlias
-2017-08-26 18:05:24,050 INFO  [Soap11HttpBindingImporter] importing operation updateUser
-2017-08-26 18:05:24,050 INFO  [Soap11HttpBindingImporter] importing operation updateUserPicture
-2017-08-26 18:05:24,051 INFO  [Soap11HttpBindingImporter] importing operation userEnterpriseSelectionEvent
+2017-08-28 10:11:17,730 WARN  [SoapUI] Missing folder [C:\Users\ab73168\Documents\GitTestNg\HAMPS_26Aug\ext] for external libraries
+2017-08-28 10:11:18,058 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ab73168\soapui-settings.xml]
+2017-08-28 10:11:19,050 INFO  [PluginManager] 0 plugins loaded in 19 ms
+2017-08-28 10:11:19,050 INFO  [DefaultSoapUICore] All plugins loaded
+2017-08-28 10:11:19,890 INFO  [SchemaUtils] Added default schema from file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2017-08-28 10:11:19,908 INFO  [SchemaUtils] Added default schema from file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2017-08-28 10:11:19,913 INFO  [SchemaUtils] Added default schema from file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2017-08-28 10:11:19,914 INFO  [SchemaUtils] Added default schema from file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2017-08-28 10:11:19,917 INFO  [SchemaUtils] Added default schema from file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2017-08-28 10:11:19,918 INFO  [SchemaUtils] Added default schema from file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2017-08-28 10:11:19,928 INFO  [SchemaUtils] Added default schema from file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2017-08-28 10:11:19,933 INFO  [SchemaUtils] Added default schema from file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2017-08-28 10:11:19,935 INFO  [SchemaUtils] Added default schema from file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2017-08-28 10:11:19,946 INFO  [SchemaUtils] Added default schema from file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2017-08-28 10:11:22,046 INFO  [SchemaUtils] Loading schema types from [http://webservices.daehosting.com/services/TemperatureConversions.wso?WSDL]
+2017-08-28 10:11:22,047 INFO  [SchemaUtils] Getting schema http://webservices.daehosting.com/services/TemperatureConversions.wso?WSDL
+2017-08-28 10:11:22,700 WARN  [SchemaUtils] Error: jar:file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ID' should only be used for attributes (used for element 'ID@http://www.w3.org/2003/05/soap-encoding').
+2017-08-28 10:11:22,700 WARN  [SchemaUtils] Error: jar:file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'IDREF' should only be used for attributes (used for element 'IDREF@http://www.w3.org/2003/05/soap-encoding').
+2017-08-28 10:11:22,700 WARN  [SchemaUtils] Error: jar:file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ENTITY' should only be used for attributes (used for element 'ENTITY@http://www.w3.org/2003/05/soap-encoding').
+2017-08-28 10:11:22,700 WARN  [SchemaUtils] Error: jar:file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'IDREFS' should only be used for attributes (used for element 'IDREFS@http://www.w3.org/2003/05/soap-encoding').
+2017-08-28 10:11:22,701 WARN  [SchemaUtils] Error: jar:file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ENTITIES' should only be used for attributes (used for element 'ENTITIES@http://www.w3.org/2003/05/soap-encoding').
+2017-08-28 10:11:22,701 WARN  [SchemaUtils] Error: jar:file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ID' should only be used for attributes (used for element 'ID@http://schemas.xmlsoap.org/soap/encoding/').
+2017-08-28 10:11:22,701 WARN  [SchemaUtils] Error: jar:file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'IDREF' should only be used for attributes (used for element 'IDREF@http://schemas.xmlsoap.org/soap/encoding/').
+2017-08-28 10:11:22,701 WARN  [SchemaUtils] Error: jar:file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ENTITY' should only be used for attributes (used for element 'ENTITY@http://schemas.xmlsoap.org/soap/encoding/').
+2017-08-28 10:11:22,701 WARN  [SchemaUtils] Error: jar:file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'IDREFS' should only be used for attributes (used for element 'IDREFS@http://schemas.xmlsoap.org/soap/encoding/').
+2017-08-28 10:11:22,701 WARN  [SchemaUtils] Error: jar:file:/C:/Users/ab73168/Documents/GitTestNg/HAMPS_26Aug/Resources/JarFiles/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd:0: warning: id-idref-idrefs-entity-entities-notation: For compatibility, type 'ENTITIES' should only be used for attributes (used for element 'ENTITIES@http://schemas.xmlsoap.org/soap/encoding/').
+2017-08-28 10:11:22,777 INFO  [WsdlImporter] Finding importer for {http://webservices.daehosting.com/temperature}TemperatureConversionsSoapBinding12
+2017-08-28 10:11:22,781 INFO  [WsdlImporter] Importing binding {http://webservices.daehosting.com/temperature}TemperatureConversionsSoapBinding12
+2017-08-28 10:11:22,835 INFO  [Soap12HttpBindingImporter] importing endpoint http://webservices.daehosting.com/services/TemperatureConversions.wso
+2017-08-28 10:11:22,931 INFO  [Soap12HttpBindingImporter] importing operation CelsiusToFahrenheit
+2017-08-28 10:11:22,971 INFO  [Soap12HttpBindingImporter] importing operation FahrenheitToCelsius
+2017-08-28 10:11:22,971 INFO  [Soap12HttpBindingImporter] importing operation WindChillInCelsius
+2017-08-28 10:11:22,972 INFO  [Soap12HttpBindingImporter] importing operation WindChillInFahrenheit
+2017-08-28 10:11:23,039 INFO  [WsdlImporter] Finding importer for {http://webservices.daehosting.com/temperature}TemperatureConversionsSoapBinding
+2017-08-28 10:11:23,040 INFO  [WsdlImporter] Importing binding {http://webservices.daehosting.com/temperature}TemperatureConversionsSoapBinding
+2017-08-28 10:11:23,041 INFO  [Soap11HttpBindingImporter] importing endpoint http://webservices.daehosting.com/services/TemperatureConversions.wso
+2017-08-28 10:11:23,041 INFO  [Soap11HttpBindingImporter] importing operation CelsiusToFahrenheit
+2017-08-28 10:11:23,042 INFO  [Soap11HttpBindingImporter] importing operation FahrenheitToCelsius
+2017-08-28 10:11:23,042 INFO  [Soap11HttpBindingImporter] importing operation WindChillInCelsius
+2017-08-28 10:11:23,043 INFO  [Soap11HttpBindingImporter] importing operation WindChillInFahrenheit

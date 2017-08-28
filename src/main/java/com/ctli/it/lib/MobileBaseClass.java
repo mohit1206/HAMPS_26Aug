@@ -1317,7 +1317,37 @@ public void sentAnEmail()
 		   		}
 		   		
 		   	}      
-	
+		       
+		       public void switchNative() throws InterruptedException {
+		    	   Set<String> nativeView = androiddriver.getContextHandles();
+		    	   for (String view : nativeView) {
+		    	   if (view.startsWith("NATIVE")) {
+		    	   androiddriver.context(view);
+		    	   Thread.sleep(5000);
+		    	   break;
+		    	   }}}		       
+		       
+		       public void switchWebView() throws InterruptedException {
+		    	   Set<String> webview = androiddriver.getContextHandles();
+		    	   for (String view : webview) {
+		    	   if (view.startsWith("WEBVIEW")) {
+		    	   androiddriver.context(view);
+		    	   Thread.sleep(5000);
+		    	   break;
+		    	   }}}		       
+		       
 				
 			
+
 }
+
+
+
+
+
+
+
+
+
+
+
