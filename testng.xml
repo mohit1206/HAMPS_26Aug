@@ -4,7 +4,6 @@
  <test name="FF Test">
  <parameter name="browser" value="FF"/>
     <classes>
-       <!-- <class name="com.ctli.it.testcases.NaukriTestCase1"/>  --> 
       <class name="com.ctli.it.testcases.NaukriTestCase2"/>  
     </classes>
   </test>  
